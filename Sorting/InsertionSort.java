@@ -8,6 +8,7 @@ public class InsertionSort {
         System.out.println(Arrays.toString(sort(arr)));
     }
     static int[] sort(int[] arr) {
+        
         for (int i = 1; i < arr.length; i++) {
             
             for (int j = i; j > 0; j--) {
@@ -23,4 +24,5 @@ public class InsertionSort {
         return arr;
     }
 }
+
 
